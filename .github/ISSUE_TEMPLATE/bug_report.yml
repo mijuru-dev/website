@@ -1,0 +1,90 @@
+name: 🐞 Bug report
+description: Something on mijuru.com is broken or looks wrong
+title: "[Bug]: "
+labels: ["bug", "app:website", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve mijuru.com! Please write in **English** — a machine translation from your language is perfectly fine.
+        **Copyright / takedown requests:** please use the *Report image* form on the wallpaper page or email m@mijuru.dev instead — issues are public.
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Link to the page where the problem happens
+      placeholder: https://mijuru.com/wallpapers/...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop / laptop
+        - Phone
+        - Tablet
+        - TV
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS
+      placeholder: e.g. Chrome 131 on Windows 11, Safari on iOS 18
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Site language
+      options:
+        - English
+        - Русский (ru)
+        - Українська (uk)
+        - Español (es)
+        - Português (pt)
+        - Deutsch (de)
+        - Français (fr)
+        - Italiano (it)
+        - Türkçe (tr)
+        - Polski (pl)
+        - Čeština (cs)
+        - 한국어 (ko)
+        - 日本語 (ja)
+        - 中文 (zh)
+        - हिन्दी (hi)
+        - Tiếng Việt (vi)
+        - Bahasa Indonesia (id)
+        - ไทย (th)
+        - Basa Jawa (jv)
+        - Bahasa Melayu (ms)
+        - বাংলা (bn)
+        - العربية (ar)
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop an image here if you can
+    validations:
+      required: false

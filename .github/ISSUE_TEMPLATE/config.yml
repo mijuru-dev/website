@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+- name: 💡 Idea or suggestion
+  url: https://github.com/orgs/mijuru-dev/discussions/categories/ideas
+  about: Share ideas and vote for others in GitHub Discussions. Issues are for problems only.
+- name: 🖼️ Wallpaper request
+  url: https://github.com/orgs/mijuru-dev/discussions/categories/wallpaper-requests
+  about: Missing a category, resolution or device? Request it in GitHub Discussions.
+- name: ❓ Question
+  url: https://github.com/orgs/mijuru-dev/discussions/categories/q-a
+  about: Ask how something works in GitHub Discussions (Q&A).
+- name: ©️ Copyright / takedown request
+  url: https://mijuru.com
+  about: Open the image's page and use the "Report image" form, or email m@mijuru.dev with the page URL and proof of ownership. Please don't post these as public issues.
+- name: 🔒 Privacy policy
+  url: https://mijuru.com/privacy-policy
+  about: How mijuru.com handles your data

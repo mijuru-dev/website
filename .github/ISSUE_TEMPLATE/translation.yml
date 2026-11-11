@@ -1,0 +1,56 @@
+name: 🌐 Translation
+description: A wrong, missing or awkward translation on mijuru.com
+title: "[i18n]: "
+labels: ["i18n", "app:website"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make Mijuru read naturally in your language!
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - English
+        - Русский (ru)
+        - Українська (uk)
+        - Español (es)
+        - Português (pt)
+        - Deutsch (de)
+        - Français (fr)
+        - Italiano (it)
+        - Türkçe (tr)
+        - Polski (pl)
+        - 한국어 (ko)
+        - Tiếng Việt (vi)
+        - Bahasa Indonesia (id)
+        - العربية (ar)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      placeholder: https://mijuru.com/uk/desktop-app
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: Current text
+      description: Copy the text exactly as it appears on the site
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Context, why the current text is wrong, screenshot
+    validations:
+      required: false

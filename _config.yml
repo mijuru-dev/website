@@ -1,0 +1,14 @@
+title: Mijuru — website
+description: Documentation and feedback for mijuru.com — free HD, 4K and 8K wallpapers and avatars
+theme: jekyll-theme-minimal
+logo: /website/assets/logo.png
+show_downloads: false
+exclude:
+  - .github
+
+url: https://mijuru-dev.github.io
+baseurl: /website
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+lang: en
